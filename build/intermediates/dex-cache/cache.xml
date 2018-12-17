@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/ingeehong/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.9.0/f824591a0016efbaeddb8300bee54832a1398cfa/okio-1.9.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
+        <dex dex="/Users/ingeehong/Desktop/tutorial-android-yourFirstApp-master/app/build/intermediates/pre-dexed/debug/okio-1.9.0_c62a7aa610ba4816ed6e1bd0dbe42ae3bd587e75.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ingeehong/.gradle/caches/modules-2/files-2.1/io.swagger/swagger-annotations/1.5.9/598403e3d21da08f8e46efb9f2b6d7b1bc0046d/swagger-annotations-1.5.9.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="0598403e3d21da08f8e46efb9f2b6d7b1bc0046d">
+        <dex dex="/Users/ingeehong/Desktop/tutorial-android-yourFirstApp-master/app/build/intermediates/pre-dexed/debug/swagger-annotations-1.5.9_9b8497df6e0eea3c936ef2a68965fb6142c917c4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ingeehong/Desktop/tutorial-android-yourFirstApp-master/app/build/intermediates/exploded-aar/com.android.support/customtabs/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="7a84af748a39002a40b5d0c1eb2cd9a13c9370ec">
+        <dex dex="/Users/ingeehong/Desktop/tutorial-android-yourFirstApp-master/app/build/intermediates/pre-dexed/debug/com.android.support-customtabs-24.2.1_7de8aefb19c6e85bdefed9f623b5dfee9bc654d1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ingeehong/Desktop/tutorial-android-yourFirstApp-master/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="8fe8a8f77d651982ce5e18f6187dc4daf914ac57">
+        <dex dex="/Users/ingeehong/Desktop/tutorial-android-yourFirstApp-master/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.2.0_db510fd4d2c455b1114a2b82fc55bb925bd855d2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ingeehong/Desktop/tutorial-android-yourFirstApp-master/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="702d339bc0a81d21354cd7e2cf2b67225fa4a16c">
+        <dex dex="/Users/ingeehong/Desktop/tutorial-android-yourFirstApp-master/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.2.0_9cf5b9841ee844f2cc6c5591170d0d7d61793bef.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ingeehong/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/logging-interceptor/2.7.5/229decd4f18b3133eeabb0005e1d3f6e66074528/logging-interceptor-2.7.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="229decd4f18b3133eeabb0005e1d3f6e66074528">
+        <dex dex="/Users/ingeehong/Desktop/tutorial-android-yourFirstApp-master/app/build/intermediates/pre-dexed/debug/logging-interceptor-2.7.5_f6c7a69e5ff9a379d6435cc3905e6f57618c9992.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ingeehong/Desktop/tutorial-android-yourFirstApp-master/app/build/intermediates/exploded-aar/com.android.support.constraint/constraint-layout/1.1.3/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="b15c6ded887ad967e20bb335c1a121b253c04dce">
+        <dex dex="/Users/ingeehong/Desktop/tutorial-android-yourFirstApp-master/app/build/intermediates/pre-dexed/debug/com.android.support.constraint-constraint-layout-1.1.3_09a7196a24f6b571982a9bf964f9f972f75b39ed.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ingeehong/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.2.0/support-annotations-25.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="4a5a82a027706397fff621b22fd6fa796e91d7c5">
+        <dex dex="/Users/ingeehong/Desktop/tutorial-android-yourFirstApp-master/app/build/intermediates/pre-dexed/debug/support-annotations-25.2.0_fb983aab118cdab76f9079515b693414bfb2bf19.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ingeehong/.gradle/caches/modules-2/files-2.1/com.android.support.constraint/constraint-layout-solver/1.1.3/bde0667d7414c16ed62d3cfe993cff7f9d732373/constraint-layout-solver-1.1.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="bde0667d7414c16ed62d3cfe993cff7f9d732373">
+        <dex dex="/Users/ingeehong/Desktop/tutorial-android-yourFirstApp-master/app/build/intermediates/pre-dexed/debug/constraint-layout-solver-1.1.3_d42ba03c4cad54dcb030f0a9553b023bdabad205.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ingeehong/Desktop/tutorial-android-yourFirstApp-master/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="fa0446a14ed5dd3725047d6399ffea771a564b30">
+        <dex dex="/Users/ingeehong/Desktop/tutorial-android-yourFirstApp-master/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.2.0_332fdda2ed718d40d47e6093e85852cabb96140c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ingeehong/Desktop/tutorial-android-yourFirstApp-master/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="cb454b52545859ed2f24a6c01366805b0fa04b22">
+        <dex dex="/Users/ingeehong/Desktop/tutorial-android-yourFirstApp-master/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.2.0_592b290a43532449250e014db8a40486e4dbff67.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ingeehong/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-ws/3.4.1/8ace66ef7002d98f633377c9e67daeeb196d8c3b/okhttp-ws-3.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="8ace66ef7002d98f633377c9e67daeeb196d8c3b">
+        <dex dex="/Users/ingeehong/Desktop/tutorial-android-yourFirstApp-master/app/build/intermediates/pre-dexed/debug/okhttp-ws-3.4.1_346ae6659e77c3e503e411def3a07d24443ade8e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ingeehong/Desktop/tutorial-android-yourFirstApp-master/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="67eb33110dbacb46a48175b08ae0c96761d2c17d">
+        <dex dex="/Users/ingeehong/Desktop/tutorial-android-yourFirstApp-master/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.2.0_9e07ef704a978af7d3dc753589b05c12c463cb1b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ingeehong/Desktop/tutorial-android-yourFirstApp-master/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="e820b7be8c035dd522da4bc822e8a76c8e27921a">
+        <dex dex="/Users/ingeehong/Desktop/tutorial-android-yourFirstApp-master/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.2.0_285b552deb9e37c902f69af28ada0b70254d1adb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ingeehong/Desktop/tutorial-android-yourFirstApp-master/app/build/intermediates/exploded-aar/net.openid/appauth/0.4.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="a7bf36963372211d8b9e000939020b1c3242234e">
+        <dex dex="/Users/ingeehong/Desktop/tutorial-android-yourFirstApp-master/app/build/intermediates/pre-dexed/debug/net.openid-appauth-0.4.1_5525ae8cb65d006ddf7aced698713aaa4b5c00e6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ingeehong/Desktop/tutorial-android-yourFirstApp-master/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/ingeehong/Desktop/tutorial-android-yourFirstApp-master/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.2.0_911a48b598b88297ca77c87e88e6f00ab58e6c43.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ingeehong/Desktop/tutorial-android-yourFirstApp-master/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="ee394a892dd21c03a528139c1e8d4e0e1264ac84">
+        <dex dex="/Users/ingeehong/Desktop/tutorial-android-yourFirstApp-master/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.2.0_507d5b8a3c1063f85ace9314215a41210640a0ae.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ingeehong/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.4.1/c7c4f9e35c2fd5900da24f9872e3971801f08ce0/okhttp-3.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="c7c4f9e35c2fd5900da24f9872e3971801f08ce0">
+        <dex dex="/Users/ingeehong/Desktop/tutorial-android-yourFirstApp-master/app/build/intermediates/pre-dexed/debug/okhttp-3.4.1_970c6b485fc43ebd2ec25cfbb1f3f13fb504dbed.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ingeehong/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.7.5/7a15a7db50f86c4b64aa3367424a60e3a325b8f1/okhttp-2.7.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="7a15a7db50f86c4b64aa3367424a60e3a325b8f1">
+        <dex dex="/Users/ingeehong/Desktop/tutorial-android-yourFirstApp-master/app/build/intermediates/pre-dexed/debug/okhttp-2.7.5_4b962f09285be1ba2b9877d6ced66131e42bac9d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ingeehong/.gradle/caches/modules-2/files-2.1/cloud.artik/artikcloud-java/2.0.7/e78019c647cf45715c40814ec42d2e24e01257e1/artikcloud-java-2.0.7.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="e78019c647cf45715c40814ec42d2e24e01257e1">
+        <dex dex="/Users/ingeehong/Desktop/tutorial-android-yourFirstApp-master/app/build/intermediates/pre-dexed/debug/artikcloud-java-2.0.7_48927538cb16135feb72105982f11b3fa5438242.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ingeehong/Desktop/tutorial-android-yourFirstApp-master/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="810f41e5b7fd99f196ebeabe865ba2c54e7e76dc">
+        <dex dex="/Users/ingeehong/Desktop/tutorial-android-yourFirstApp-master/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.2.0_5bbe66829581779495e11eed9c441b4ec2c2a5dd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ingeehong/.gradle/caches/modules-2/files-2.1/joda-time/joda-time/2.9.3/9e46be514a4ed60bcfbaaba88a3c668cf30476ab/joda-time-2.9.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="9e46be514a4ed60bcfbaaba88a3c668cf30476ab">
+        <dex dex="/Users/ingeehong/Desktop/tutorial-android-yourFirstApp-master/app/build/intermediates/pre-dexed/debug/joda-time-2.9.3_19015615dd839571285491b04b78709e32197508.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ingeehong/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.6.2/f1bc476cc167b18e66c297df599b2377131a8947/gson-2.6.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="f1bc476cc167b18e66c297df599b2377131a8947">
+        <dex dex="/Users/ingeehong/Desktop/tutorial-android-yourFirstApp-master/app/build/intermediates/pre-dexed/debug/gson-2.6.2_47e279c933b1400789c5e7fecac630ef1c29fb36.jar" />
+    </item>
+
+</items>
