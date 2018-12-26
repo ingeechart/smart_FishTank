@@ -25,6 +25,11 @@ class Config {
     static final String LED_NAME = "LED-ingee"; //
     static final String LED_ID = "26cfed8850dd4b5d9bedb76dcd496096"; //
 
+    static final String ACTION_NAME = "sub_action";
+    static final String ACTION_ID ="2367b41312d94487afb30987f8eb651c";
+    static final String SENSOR_NAME = "fish_share";
+    static final String SENSOR_ID ="69bd256ed7974409840acf8a3cb11785";
+
     // MUST be consistent with "AUTH REDIRECT URL" of your application set up at the developer.artik.cloud
     static final String REDIRECT_URI = "cloud.artik.example.hellocloud://oauth2callback";
 

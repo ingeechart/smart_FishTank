@@ -71,14 +71,14 @@
         android:layout_height="5dp"/>
 
     <TextView
-        android:id="@+id/pub_device_name"
-        android:text="@string/device_name"
+        android:id="@+id/rule_name"
+        android:text="rule name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="14sp" />
 
     <TextView
-        android:id="@+id/pub_device_id"
+        android:id="@+id/rule_id"
         android:text="@string/device_id"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -86,14 +86,14 @@
 
 
     <TextView
-        android:id="@+id/pub_device_status"
+        android:id="@+id/rule_status"
         android:text="@string/device_status"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="14sp" />
 
     <TextView
-        android:id="@+id/pub_status_update_time"
+        android:id="@+id/rule_rule"
         android:text="@string/status_update_time"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -105,33 +105,41 @@
     <View style="@style/Divider"/>
 
     <TextView
-        android:id="@+id/sub_device_name"
+        android:id="@+id/rule_name2"
         android:text="@string/device_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="14sp" />
 
     <TextView
-        android:id="@+id/sub_device_id"
+        android:id="@+id/rule_id2"
         android:text="@string/device_id"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="14sp" />
 
     <TextView
-        android:id="@+id/sub_device_status"
+        android:id="@+id/rule_status2"
         android:text="@string/device_status"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="14sp" />
 
     <TextView
-        android:id="@+id/sub_device_status_update_time"
+        android:id="@+id/rule_rule2"
         android:text="@string/status_update_time"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="14sp" />
 
+    <EditText
+        android:id="@+id/modRname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="input temp or ntu"
+        />
     <EditText
         android:id="@+id/modfiedValue"
         android:layout_width="match_parent"

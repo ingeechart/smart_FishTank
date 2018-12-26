@@ -1,0 +1,4 @@
+#Wed Dec 19 20:00:30 KST 2018
+base.0=/Users/ingeehong/Tyche/smart_FishTank/app/build/intermediates/transforms/dexMerger/debug/6
+path.0=classes.dex
+renamed.0=classes.dex

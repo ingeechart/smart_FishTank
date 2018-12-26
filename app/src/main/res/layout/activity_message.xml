@@ -1,46 +1,114 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-	android:layout_width="match_parent"
-	android:layout_height="match_parent"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-	android:orientation="vertical" >
-	
-	<TextView
-       android:id="@+id/welcome"
-       android:layout_width="match_parent"
-       android:layout_height="wrap_content"
-       android:text="@string/welcome_txt" />
-		
-    <Button
-       android:id="@+id/send_btn"
-       android:layout_width="wrap_content"
-       android:layout_height="wrap_content"
-       android:text="@string/send_btn_txt" />
-		
-    <TextView
-        android:id="@+id/sendmsg_response"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/sendmsg_response" />
-    
-    <Button
-       android:id="@+id/getlatest_btn"
-       android:layout_width="wrap_content"
-       android:layout_height="wrap_content"
-       android:text="@string/getlatest_btn_txt" />
-        
-    <TextView
-        android:id="@+id/getlatest_response_mid"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/getlatest_response_mid" />
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:paddingLeft="@dimen/activity_horizontal_margin"
+android:paddingRight="@dimen/activity_horizontal_margin"
+android:orientation="vertical" >
 
-    <TextView
-        android:id="@+id/getlatest_response_mdata"
-        android:layout_width="match_parent"
+<TextView
+    android:id="@+id/welcome"
+    android:layout_width="wrap_content"
+    android:layout_height="30dp"
+    android:layout_marginStart="8dp"
+    android:layout_marginEnd="8dp"
+    android:text="welcome smart fish tank"
+    android:textSize="18sp"
+    android:textStyle="bold"
+    android:layout_margin="30dp"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/getlatest_btn"
+        android:layout_width="99dp"
+        android:layout_height="103dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/cloud"
+        android:text="Get Message"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp"
+        />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/displayTemp"
+                android:layout_width="100dp"
+                android:layout_height="23dp"
+                android:layout_marginBottom="12dp"
+                android:text="temp"
+                android:textSize="18sp"
+                android:textStyle="bold"
+
+                />
+
+            <TextView
+                android:id="@+id/displayNtu"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_marginBottom="8dp"
+                android:text="ntu"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                 />
+
+            <TextView
+                android:id="@+id/displayLat"
+                android:layout_width="100dp"
+                android:layout_height="29dp"
+                android:text="light"
+                android:textSize="18sp"
+                android:textStyle="bold"
+
+                />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/getlatest_response_mdata" />
+        android:layout_margin="30dp">
+
+        <ImageButton
+            android:id="@+id/ledOn_button"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="10dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ledon"
+            />
+
+
+        <ImageButton
+            android:id="@+id/ledOff_button"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="10dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ledoff"
+             />
+
+        <ImageButton
+            android:id="@+id/feed_button"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="10dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/fish_food"
+            />
+
+
+
+    </LinearLayout>
 
     <Button
         android:id="@+id/change_rules_btn"
@@ -48,4 +116,242 @@
         android:layout_height="50dp"
         android:padding="10dp"
         android:text="change rules" />
+
+
 </LinearLayout>
+
+
+<!--<Button-->
+<!--android:id="@+id/send_btn"-->
+<!--android:layout_width="wrap_content"-->
+<!--android:layout_height="wrap_content"-->
+<!--android:text="@string/send_btn_txt" />-->
+
+<!--<TextView-->
+<!--android:id="@+id/sendmsg_response"-->
+<!--android:layout_width="match_parent"-->
+<!--android:layout_height="wrap_content"-->
+<!--android:text="@string/sendmsg_response" />-->
+
+<!--<TextView-->
+<!--android:id="@+id/getlatest_response_mid"-->
+<!--android:layout_width="match_parent"-->
+<!--android:layout_height="wrap_content"-->
+<!--android:text="@string/getlatest_response_mid" />-->
+
+<!--<TextView-->
+<!--android:id="@+id/getlatest_response_mdata"-->
+<!--android:layout_width="match_parent"-->
+<!--android:layout_height="wrap_content"-->
+<!--android:text="@string/getlatest_response_mdata" />-->
+
+
+
+
+
+
+
+<!--<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--xmlns:tools="http://schemas.android.com/tools"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:paddingLeft="@dimen/activity_horizontal_margin"-->
+    <!--android:paddingRight="@dimen/activity_horizontal_margin"-->
+    <!--android:background="@drawable/asd"-->
+    <!--android:orientation="vertical" >-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/welcome"-->
+        <!--android:layout_width="164dp"-->
+        <!--android:layout_height="30dp"-->
+        <!--android:layout_marginStart="8dp"-->
+        <!--android:layout_marginEnd="8dp"-->
+        <!--android:text="@string/welcome_txt"-->
+        <!--android:textColor="@android:color/background_light"-->
+        <!--android:textSize="18sp"-->
+        <!--android:textStyle="bold"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintHorizontal_bias="0.0"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--tools:layout_editor_absoluteY="16dp"-->
+        <!--/>-->
+
+    <!--<Button-->
+        <!--android:id="@+id/send_btn"-->
+        <!--android:layout_width="99dp"-->
+        <!--android:layout_height="84dp"-->
+        <!--android:layout_marginTop="40dp"-->
+        <!--android:background="@drawable/cloud"-->
+        <!--android:text="Send Message"-->
+        <!--android:textColor="@android:color/background_light"-->
+        <!--android:textSize="18sp"-->
+        <!--app:layout_constraintTop_toBottomOf="@+id/change_rules_btn"-->
+        <!--tools:layout_editor_absoluteX="65dp"-->
+         <!--/>-->
+
+
+    <!--<Button-->
+        <!--android:id="@+id/getlatest_btn"-->
+        <!--android:layout_width="99dp"-->
+        <!--android:layout_height="103dp"-->
+        <!--android:layout_marginStart="8dp"-->
+        <!--android:layout_marginTop="20dp"-->
+        <!--android:layout_marginEnd="8dp"-->
+        <!--android:background="@drawable/cloud"-->
+        <!--android:text="Get Message"-->
+        <!--android:textColor="@android:color/background_light"-->
+        <!--android:textSize="18sp"-->
+        <!--app:layout_constraintEnd_toStartOf="@+id/displayLat"-->
+        <!--app:layout_constraintHorizontal_bias="0.647"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintTop_toBottomOf="@+id/welcome" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/displayTemp"-->
+        <!--android:layout_width="50dp"-->
+        <!--android:layout_height="23dp"-->
+        <!--android:layout_marginBottom="12dp"-->
+        <!--android:text="temp"-->
+        <!--android:textColor="@android:color/background_light"-->
+        <!--android:textSize="18sp"-->
+        <!--android:textStyle="bold"-->
+        <!--app:layout_constraintBottom_toTopOf="@+id/displayNtu"-->
+        <!--tools:layout_editor_absoluteX="156dp"-->
+         <!--/>-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/displayNtu"-->
+        <!--android:layout_width="100dp"-->
+        <!--android:layout_height="30dp"-->
+        <!--android:layout_marginBottom="8dp"-->
+        <!--android:text="ntu"-->
+        <!--android:textColor="@android:color/background_light"-->
+        <!--android:textSize="18sp"-->
+        <!--android:textStyle="bold"-->
+        <!--app:layout_constraintBottom_toTopOf="@+id/displayLat"-->
+        <!--tools:layout_editor_absoluteX="153dp" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/displayLat"-->
+        <!--android:layout_width="100dp"-->
+        <!--android:layout_height="29dp"-->
+        <!--android:text="light"-->
+        <!--android:textColor="@android:color/background_light"-->
+        <!--android:textSize="18sp"-->
+        <!--android:textStyle="bold"-->
+        <!--tools:layout_editor_absoluteX="153dp"-->
+        <!--tools:layout_editor_absoluteY="140dp"-->
+         <!--/>-->
+
+    <!--<Button-->
+        <!--android:id="@+id/change_rules_btn"-->
+        <!--android:layout_width="119dp"-->
+        <!--android:layout_height="88dp"-->
+        <!--android:layout_marginTop="44dp"-->
+        <!--android:background="@drawable/computer"-->
+        <!--android:lineSpacingExtra="30sp"-->
+        <!--android:text="Monitoring"-->
+        <!--android:textAlignment="center"-->
+        <!--android:textColor="@android:color/background_light"-->
+        <!--android:textSize="18sp"-->
+        <!--android:textStyle="bold"-->
+        <!--app:layout_constraintTop_toBottomOf="@+id/ledOn_button"-->
+        <!--tools:layout_editor_absoluteX="16dp"-->
+         <!--/>-->
+
+    <!--<ImageButton-->
+        <!--android:id="@+id/ledOn_button"-->
+        <!--android:layout_width="50dp"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:layout_marginStart="24dp"-->
+        <!--android:layout_marginEnd="8dp"-->
+        <!--android:adjustViewBounds="true"-->
+        <!--android:scaleType="fitCenter"-->
+        <!--android:src="@drawable/ledon"-->
+        <!--app:layout_constraintEnd_toStartOf="@+id/ledOff_button"-->
+        <!--app:layout_constraintHorizontal_bias="0.356"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--tools:layout_editor_absoluteY="227dp"-->
+        <!--/>-->
+
+    <!--<ImageButton-->
+        <!--android:id="@+id/ledOff_button"-->
+        <!--android:layout_width="50dp"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:layout_marginTop="56dp"-->
+        <!--android:adjustViewBounds="true"-->
+        <!--android:scaleType="fitCenter"-->
+        <!--android:src="@drawable/ledoff"-->
+        <!--app:layout_constraintTop_toBottomOf="@+id/getlatest_btn"-->
+        <!--tools:layout_editor_absoluteX="151dp" />-->
+
+    <!--<ImageButton-->
+        <!--android:id="@+id/feed_button"-->
+        <!--android:layout_width="50dp"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:layout_marginStart="64dp"-->
+        <!--android:adjustViewBounds="true"-->
+        <!--android:scaleType="fitCenter"-->
+        <!--android:src="@drawable/fish_food"-->
+        <!--app:layout_constraintStart_toEndOf="@+id/ledOff_button"-->
+        <!--tools:layout_editor_absoluteY="225dp"-->
+         <!--/>-->
+
+<!--</android.support.constraint.ConstraintLayout>-->
+
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+	<!--android:layout_width="match_parent"-->
+	<!--android:layout_height="match_parent"-->
+    <!--android:paddingLeft="@dimen/activity_horizontal_margin"-->
+    <!--android:paddingRight="@dimen/activity_horizontal_margin"-->
+	<!--android:orientation="vertical" >-->
+
+	<!--<TextView-->
+       <!--android:id="@+id/welcome"-->
+       <!--android:layout_width="match_parent"-->
+       <!--android:layout_height="wrap_content"-->
+       <!--android:text="@string/welcome_txt" />-->
+
+    <!--<Button-->
+       <!--android:id="@+id/send_btn"-->
+       <!--android:layout_width="wrap_content"-->
+       <!--android:layout_height="wrap_content"-->
+       <!--android:text="@string/send_btn_txt" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/sendmsg_response"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="@string/sendmsg_response" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/getlatest_response_mid"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="@string/getlatest_response_mid" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/getlatest_response_mdata"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="@string/getlatest_response_mdata" />-->
+
+    <!--<Button-->
+        <!--android:id="@+id/getlatest_btn"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="@string/getlatest_btn_txt" />-->
+
+    <!--<Button-->
+        <!--android:id="@+id/change_rules_btn"-->
+        <!--android:layout_width="150dp"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:padding="10dp"-->
+        <!--android:text="change rules" />-->
+
+
+<!--</LinearLayout>-->
+
+
+

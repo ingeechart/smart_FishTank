@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: cloud.artik:artikcloud-java:2.2.2@jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/cloud.artik/artikcloud-java/2.2.2/24e6e4f2f4afdf956013e86e20bd463375205e84/artikcloud-java-2.2.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/cloud.artik/artikcloud-java/2.2.2/a9ba951d49be7906dfdb6efa26903a4a6ae52ffa/artikcloud-java-2.2.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
